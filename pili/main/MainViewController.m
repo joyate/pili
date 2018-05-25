@@ -18,17 +18,27 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSLog(@"hello000");
+    // 建立ui
+    [self setupUI];
+    
     
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setupUI {
+    
+    UIViewController* vc_profile = [[UIStoryboard storyboardWithName:@"Profile" bundle:nil] instantiateInitialViewController];
+    UIViewController* vc_hero = [[UIStoryboard storyboardWithName:@"Hero" bundle:nil] instantiateInitialViewController];
+    UIViewController* vc_drama = [[UIStoryboard storyboardWithName:@"Drama" bundle:nil] instantiateInitialViewController];
+    UIViewController* vc_chitchat = [[UIStoryboard storyboardWithName:@"ChitChat" bundle:nil] instantiateInitialViewController];
+    
+    NSArray* vcs = [NSArray arrayWithObjects:vc_drama, vc_hero, vc_chitchat, vc_profile, nil];
+    
+    self.viewControllers = vcs;
+    self.selectedIndex = 0;
+    self.tabBar.tintColor = [UIColor blueColor];
+    self.tabBar.barTintColor = [UIColor blackColor];
+    self.tabBar.translucent = NO;
 }
-
-
-
 
 @end

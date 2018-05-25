@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11130CBD20B7FAB200726771 /* Drama.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11130CBB20B7FAB200726771 /* Drama.storyboard */; };
+		11130CC020B7FB4600726771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11130CBE20B7FB4600726771 /* Main.storyboard */; };
+		11130CC520B7FDD200726771 /* Hero.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11130CC320B7FDD200726771 /* Hero.storyboard */; };
+		11130CC720B7FFBB00726771 /* chitchat in Resources */ = {isa = PBXBuildFile; fileRef = 11130CC620B7FFBB00726771 /* chitchat */; };
+		11130CCA20B8001300726771 /* ChitChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11130CC820B8001300726771 /* ChitChat.storyboard */; };
+		11130CCE20B8004600726771 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11130CCC20B8004600726771 /* Profile.storyboard */; };
+		11130CD120B807ED00726771 /* DramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11130CD020B807ED00726771 /* DramaViewController.m */; };
 		1135D22120A9F4420030932D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1135D22020A9F4420030932D /* AppDelegate.m */; };
 		1135D22420A9F4420030932D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1135D22320A9F4420030932D /* MainViewController.m */; };
-		1135D22720A9F4420030932D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1135D22520A9F4420030932D /* Main.storyboard */; };
 		1135D22920A9F4420030932D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1135D22820A9F4420030932D /* Assets.xcassets */; };
 		1135D22C20A9F4420030932D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1135D22A20A9F4420030932D /* LaunchScreen.storyboard */; };
 		1135D22F20A9F4420030932D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1135D22E20A9F4420030932D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11130CBC20B7FAB200726771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = pili/Base.lproj/Drama.storyboard; sourceTree = "<group>"; };
+		11130CBF20B7FB4600726771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = pili/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11130CC420B7FDD200726771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = pili/Base.lproj/Hero.storyboard; sourceTree = "<group>"; };
+		11130CC620B7FFBB00726771 /* chitchat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = chitchat; sourceTree = "<group>"; };
+		11130CC920B8001300726771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = pili/Base.lproj/ChitChat.storyboard; sourceTree = "<group>"; };
+		11130CCD20B8004600726771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = pili/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		11130CCF20B807ED00726771 /* DramaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DramaViewController.h; sourceTree = "<group>"; };
+		11130CD020B807ED00726771 /* DramaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DramaViewController.m; sourceTree = "<group>"; };
 		1135D21C20A9F4420030932D /* pili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pili.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1135D21F20A9F4420030932D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1135D22020A9F4420030932D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1135D22220A9F4420030932D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		1135D22320A9F4420030932D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		1135D22620A9F4420030932D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1135D22820A9F4420030932D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1135D22B20A9F4420030932D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1135D22D20A9F4420030932D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,16 +55,41 @@
 		11130CBA20B7F70100726771 /* main */ = {
 			isa = PBXGroup;
 			children = (
-				1135D22520A9F4420030932D /* Main.storyboard */,
 				1135D22220A9F4420030932D /* MainViewController.h */,
 				1135D22320A9F4420030932D /* MainViewController.m */,
 			);
 			path = main;
 			sourceTree = "<group>";
 		};
+		11130CC120B7FBCA00726771 /* hero */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = hero;
+			sourceTree = "<group>";
+		};
+		11130CCB20B8002200726771 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		11130CD220B814AF00726771 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		1135D21320A9F4420030932D = {
 			isa = PBXGroup;
 			children = (
+				11130CCC20B8004600726771 /* Profile.storyboard */,
+				11130CC820B8001300726771 /* ChitChat.storyboard */,
+				11130CC320B7FDD200726771 /* Hero.storyboard */,
+				11130CBE20B7FB4600726771 /* Main.storyboard */,
+				11130CBB20B7FAB200726771 /* Drama.storyboard */,
 				1135D21E20A9F4420030932D /* pili */,
 				1135D21D20A9F4420030932D /* Products */,
 			);
@@ -68,6 +106,10 @@
 		1135D21E20A9F4420030932D /* pili */ = {
 			isa = PBXGroup;
 			children = (
+				11130CD220B814AF00726771 /* extension */,
+				11130CCB20B8002200726771 /* profile */,
+				11130CC620B7FFBB00726771 /* chitchat */,
+				11130CC120B7FBCA00726771 /* hero */,
 				11130CBA20B7F70100726771 /* main */,
 				114D510120B70066005B5CD9 /* drama */,
 				1135D21F20A9F4420030932D /* AppDelegate.h */,
@@ -83,6 +125,8 @@
 		114D510120B70066005B5CD9 /* drama */ = {
 			isa = PBXGroup;
 			children = (
+				11130CCF20B807ED00726771 /* DramaViewController.h */,
+				11130CD020B807ED00726771 /* DramaViewController.m */,
 			);
 			name = drama;
 			sourceTree = "<group>";
@@ -145,9 +189,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11130CBD20B7FAB200726771 /* Drama.storyboard in Resources */,
+				11130CC020B7FB4600726771 /* Main.storyboard in Resources */,
+				11130CCE20B8004600726771 /* Profile.storyboard in Resources */,
+				11130CC520B7FDD200726771 /* Hero.storyboard in Resources */,
+				11130CCA20B8001300726771 /* ChitChat.storyboard in Resources */,
 				1135D22C20A9F4420030932D /* LaunchScreen.storyboard in Resources */,
+				11130CC720B7FFBB00726771 /* chitchat in Resources */,
 				1135D22920A9F4420030932D /* Assets.xcassets in Resources */,
-				1135D22720A9F4420030932D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11130CD120B807ED00726771 /* DramaViewController.m in Sources */,
 				1135D22420A9F4420030932D /* MainViewController.m in Sources */,
 				1135D22F20A9F4420030932D /* main.m in Sources */,
 				1135D22120A9F4420030932D /* AppDelegate.m in Sources */,
@@ -167,12 +217,44 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1135D22520A9F4420030932D /* Main.storyboard */ = {
+		11130CBB20B7FAB200726771 /* Drama.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1135D22620A9F4420030932D /* Base */,
+				11130CBC20B7FAB200726771 /* Base */,
+			);
+			name = Drama.storyboard;
+			sourceTree = "<group>";
+		};
+		11130CBE20B7FB4600726771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11130CBF20B7FB4600726771 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11130CC320B7FDD200726771 /* Hero.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11130CC420B7FDD200726771 /* Base */,
+			);
+			name = Hero.storyboard;
+			sourceTree = "<group>";
+		};
+		11130CC820B8001300726771 /* ChitChat.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11130CC920B8001300726771 /* Base */,
+			);
+			name = ChitChat.storyboard;
+			sourceTree = "<group>";
+		};
+		11130CCC20B8004600726771 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11130CCD20B8004600726771 /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 		1135D22A20A9F4420030932D /* LaunchScreen.storyboard */ = {

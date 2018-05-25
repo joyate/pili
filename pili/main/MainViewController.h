@@ -11,6 +11,7 @@
 @interface MainViewController : UITabBarController
 
 
+-(void)setupUI;
 
 
 @end
