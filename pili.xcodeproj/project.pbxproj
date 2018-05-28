@@ -13,12 +13,14 @@
 		11130CC720B7FFBB00726771 /* chitchat in Resources */ = {isa = PBXBuildFile; fileRef = 11130CC620B7FFBB00726771 /* chitchat */; };
 		11130CCA20B8001300726771 /* ChitChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11130CC820B8001300726771 /* ChitChat.storyboard */; };
 		11130CCE20B8004600726771 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11130CCC20B8004600726771 /* Profile.storyboard */; };
-		11130CD120B807ED00726771 /* DramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11130CD020B807ED00726771 /* DramaViewController.m */; };
+		11130CDC20B8794C00726771 /* DramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11130CDB20B8794C00726771 /* DramaViewController.m */; };
+		11130CDF20B87B5800726771 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11130CDE20B87B5800726771 /* ProfileViewController.m */; };
 		1135D22120A9F4420030932D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1135D22020A9F4420030932D /* AppDelegate.m */; };
 		1135D22420A9F4420030932D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1135D22320A9F4420030932D /* MainViewController.m */; };
 		1135D22920A9F4420030932D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1135D22820A9F4420030932D /* Assets.xcassets */; };
 		1135D22C20A9F4420030932D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1135D22A20A9F4420030932D /* LaunchScreen.storyboard */; };
 		1135D22F20A9F4420030932D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1135D22E20A9F4420030932D /* main.m */; };
+		1161A9D820BC48C00018CA86 /* DramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1161A9D720BC48C00018CA86 /* DramaView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +30,10 @@
 		11130CC620B7FFBB00726771 /* chitchat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = chitchat; sourceTree = "<group>"; };
 		11130CC920B8001300726771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = pili/Base.lproj/ChitChat.storyboard; sourceTree = "<group>"; };
 		11130CCD20B8004600726771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = pili/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
-		11130CCF20B807ED00726771 /* DramaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DramaViewController.h; sourceTree = "<group>"; };
-		11130CD020B807ED00726771 /* DramaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DramaViewController.m; sourceTree = "<group>"; };
+		11130CDA20B8794B00726771 /* DramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DramaViewController.h; path = drama/DramaViewController.h; sourceTree = "<group>"; };
+		11130CDB20B8794C00726771 /* DramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DramaViewController.m; path = drama/DramaViewController.m; sourceTree = "<group>"; };
+		11130CDD20B87B5800726771 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		11130CDE20B87B5800726771 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		1135D21C20A9F4420030932D /* pili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pili.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1135D21F20A9F4420030932D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1135D22020A9F4420030932D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +43,8 @@
 		1135D22B20A9F4420030932D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1135D22D20A9F4420030932D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1135D22E20A9F4420030932D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1161A9D620BC48BF0018CA86 /* DramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DramaView.h; path = drama/DramaView.h; sourceTree = "<group>"; };
+		1161A9D720BC48C00018CA86 /* DramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DramaView.m; path = drama/DramaView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,8 @@
 		11130CCB20B8002200726771 /* profile */ = {
 			isa = PBXGroup;
 			children = (
+				11130CDD20B87B5800726771 /* ProfileViewController.h */,
+				11130CDE20B87B5800726771 /* ProfileViewController.m */,
 			);
 			path = profile;
 			sourceTree = "<group>";
@@ -125,8 +133,10 @@
 		114D510120B70066005B5CD9 /* drama */ = {
 			isa = PBXGroup;
 			children = (
-				11130CCF20B807ED00726771 /* DramaViewController.h */,
-				11130CD020B807ED00726771 /* DramaViewController.m */,
+				1161A9D620BC48BF0018CA86 /* DramaView.h */,
+				1161A9D720BC48C00018CA86 /* DramaView.m */,
+				11130CDA20B8794B00726771 /* DramaViewController.h */,
+				11130CDB20B8794C00726771 /* DramaViewController.m */,
 			);
 			name = drama;
 			sourceTree = "<group>";
@@ -207,10 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11130CD120B807ED00726771 /* DramaViewController.m in Sources */,
 				1135D22420A9F4420030932D /* MainViewController.m in Sources */,
+				1161A9D820BC48C00018CA86 /* DramaView.m in Sources */,
 				1135D22F20A9F4420030932D /* main.m in Sources */,
 				1135D22120A9F4420030932D /* AppDelegate.m in Sources */,
+				11130CDC20B8794C00726771 /* DramaViewController.m in Sources */,
+				11130CDF20B87B5800726771 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

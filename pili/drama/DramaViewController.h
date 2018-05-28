@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DramaViewController : UIViewController
+@interface DramaViewController : UIViewController <UICollectionViewDataSource>
+
+// 建立UI
+-(void)setupUI;
+
 
 @end

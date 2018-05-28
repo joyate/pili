@@ -36,8 +36,8 @@
     
     self.viewControllers = vcs;
     self.selectedIndex = 0;
-    self.tabBar.tintColor = [UIColor blueColor];
-    self.tabBar.barTintColor = [UIColor blackColor];
+    self.tabBar.tintColor = [UIColor orangeColor];
+    self.tabBar.barTintColor = [UIColor whiteColor];
     self.tabBar.translucent = NO;
 }
 
