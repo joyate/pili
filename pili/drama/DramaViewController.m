@@ -8,15 +8,17 @@
 
 #import "DramaViewController.h"
 #import "DramaView.h"
+#import "CVCellDrama.h"
+#import "Common.h"
 
 @interface DramaViewController ()
 
 @end
 
 
-const CGFloat kDramaHeight = 64;
-const CGFloat kTabbarHegith = 40;
-
+const CGFloat kDramaHeight = 20 + 44;
+const CGFloat kTabbarHegith = 48;
+extern NSString* DRAMA_CELL_NAME_ID;
 
 @implementation DramaViewController
 
@@ -50,17 +52,23 @@ const CGFloat kTabbarHegith = 40;
 
 
 -(NSInteger) numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
-    return 0;
+    return 3;
 }
 
 
 -(NSInteger) collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 0;
+    return 3;
 }
 
--(UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+-(UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    return nil;
+    CVCellDrama* cell = [collectionView dequeueReusableCellWithReuseIdentifier:DRAMA_CELL_NAME_ID forIndexPath:indexPath];
+    if (!cell) {
+        cell = [CVCellDrama new];
+        return cell;
+    }
+    
+    return cell;
 }
 
 @end

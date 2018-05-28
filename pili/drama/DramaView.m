@@ -7,6 +7,10 @@
 //
 
 #import "DramaView.h"
+#import "Common.h"
+
+NSString* DRAMA_CELL_NAME_ID = @"drama_cell_id";
+
 
 @implementation DramaView
 
@@ -36,16 +40,23 @@
 
 - (void)setupUI {
     
+    CGRect scr_rec = [UIScreen mainScreen].bounds;
+    
     UICollectionViewFlowLayout* layout = [UICollectionViewFlowLayout new];
-    layout.itemSize = self.bounds.size;
-    layout.minimumLineSpacing = 2;
+    layout.itemSize = CGSizeMake(120, 180);
+    layout.minimumLineSpacing = 5;
     layout.minimumInteritemSpacing = 2;
+    layout.headerReferenceSize = CGSizeMake(scr_rec.size.width, 20);
+    layout.footerReferenceSize = CGSizeMake(scr_rec.size.width, 20);
+    layout.sectionInset = UIEdgeInsetsMake(5, 5, 5, 5);
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
     
     UICollectionView* cv_drama = [[UICollectionView alloc] initWithFrame:self.bounds collectionViewLayout:layout];
-    cv_drama.backgroundColor = [UIColor blueColor];
+    cv_drama.backgroundColor = [UIColor whiteColor];
     cv_drama.dataSource = (UIViewController<UICollectionViewDataSource>*)self.parentViewControl;
-
+    cv_drama.showsVerticalScrollIndicator = NO;
+    
+    [cv_drama registerNib:[UINib nibWithNibName:@"CVCellDrama" bundle:nil] forCellWithReuseIdentifier:DRAMA_CELL_NAME_ID];
     
     [self addSubview:cv_drama];
     

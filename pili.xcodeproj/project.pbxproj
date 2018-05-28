@@ -21,6 +21,9 @@
 		1135D22C20A9F4420030932D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1135D22A20A9F4420030932D /* LaunchScreen.storyboard */; };
 		1135D22F20A9F4420030932D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1135D22E20A9F4420030932D /* main.m */; };
 		1161A9D820BC48C00018CA86 /* DramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1161A9D720BC48C00018CA86 /* DramaView.m */; };
+		1161A9DF20BC51DA0018CA86 /* CVCellDrama.m in Sources */ = {isa = PBXBuildFile; fileRef = 1161A9DD20BC51DA0018CA86 /* CVCellDrama.m */; };
+		1161A9E020BC51DA0018CA86 /* CVCellDrama.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1161A9DE20BC51DA0018CA86 /* CVCellDrama.xib */; };
+		1195EC8B20BC8C37008BF744 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195EC8A20BC8C37008BF744 /* Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,11 @@
 		1135D22E20A9F4420030932D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1161A9D620BC48BF0018CA86 /* DramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DramaView.h; path = drama/DramaView.h; sourceTree = "<group>"; };
 		1161A9D720BC48C00018CA86 /* DramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DramaView.m; path = drama/DramaView.m; sourceTree = "<group>"; };
+		1161A9DC20BC51DA0018CA86 /* CVCellDrama.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CVCellDrama.h; path = drama/CVCellDrama.h; sourceTree = "<group>"; };
+		1161A9DD20BC51DA0018CA86 /* CVCellDrama.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CVCellDrama.m; path = drama/CVCellDrama.m; sourceTree = "<group>"; };
+		1161A9DE20BC51DA0018CA86 /* CVCellDrama.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CVCellDrama.xib; path = drama/CVCellDrama.xib; sourceTree = "<group>"; };
+		1195EC8920BC8431008BF744 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		1195EC8A20BC8C37008BF744 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 		1135D21E20A9F4420030932D /* pili */ = {
 			isa = PBXGroup;
 			children = (
+				1195EC8820BC8411008BF744 /* common */,
 				11130CD220B814AF00726771 /* extension */,
 				11130CCB20B8002200726771 /* profile */,
 				11130CC620B7FFBB00726771 /* chitchat */,
@@ -137,8 +146,20 @@
 				1161A9D720BC48C00018CA86 /* DramaView.m */,
 				11130CDA20B8794B00726771 /* DramaViewController.h */,
 				11130CDB20B8794C00726771 /* DramaViewController.m */,
+				1161A9DC20BC51DA0018CA86 /* CVCellDrama.h */,
+				1161A9DD20BC51DA0018CA86 /* CVCellDrama.m */,
+				1161A9DE20BC51DA0018CA86 /* CVCellDrama.xib */,
 			);
 			name = drama;
+			sourceTree = "<group>";
+		};
+		1195EC8820BC8411008BF744 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1195EC8920BC8431008BF744 /* Common.h */,
+				1195EC8A20BC8C37008BF744 /* Common.m */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +225,7 @@
 				11130CCE20B8004600726771 /* Profile.storyboard in Resources */,
 				11130CC520B7FDD200726771 /* Hero.storyboard in Resources */,
 				11130CCA20B8001300726771 /* ChitChat.storyboard in Resources */,
+				1161A9E020BC51DA0018CA86 /* CVCellDrama.xib in Resources */,
 				1135D22C20A9F4420030932D /* LaunchScreen.storyboard in Resources */,
 				11130CC720B7FFBB00726771 /* chitchat in Resources */,
 				1135D22920A9F4420030932D /* Assets.xcassets in Resources */,
@@ -217,9 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1161A9DF20BC51DA0018CA86 /* CVCellDrama.m in Sources */,
 				1135D22420A9F4420030932D /* MainViewController.m in Sources */,
 				1161A9D820BC48C00018CA86 /* DramaView.m in Sources */,
 				1135D22F20A9F4420030932D /* main.m in Sources */,
+				1195EC8B20BC8C37008BF744 /* Common.m in Sources */,
 				1135D22120A9F4420030932D /* AppDelegate.m in Sources */,
 				11130CDC20B8794C00726771 /* DramaViewController.m in Sources */,
 				11130CDF20B87B5800726771 /* ProfileViewController.m in Sources */,
