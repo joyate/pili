@@ -19,6 +19,7 @@
 const CGFloat kDramaHeight = 20 + 44;
 const CGFloat kTabbarHegith = 48;
 extern NSString* DRAMA_CELL_NAME_ID;
+extern NSString* DRAMA_HEADER_ID;
 
 @implementation DramaViewController
 
@@ -70,5 +71,17 @@ extern NSString* DRAMA_CELL_NAME_ID;
     
     return cell;
 }
+
+-(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
+
+    if(kind == UICollectionElementKindSectionHeader)
+    {
+        UICollectionReusableView* header = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:DRAMA_HEADER_ID forIndexPath:indexPath];
+        
+        return header;
+    }
+    return nil;
+}
+
 
 @end

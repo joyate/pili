@@ -14,7 +14,7 @@
     [super awakeFromNib];
     // Initialization code
     
-    self.backgroundColor = [UIColor orangeColor];
+    //self.backgroundColor = [UIColor orangeColor];
 }
 
 @end

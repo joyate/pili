@@ -23,6 +23,8 @@
 		1161A9D820BC48C00018CA86 /* DramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1161A9D720BC48C00018CA86 /* DramaView.m */; };
 		1161A9DF20BC51DA0018CA86 /* CVCellDrama.m in Sources */ = {isa = PBXBuildFile; fileRef = 1161A9DD20BC51DA0018CA86 /* CVCellDrama.m */; };
 		1161A9E020BC51DA0018CA86 /* CVCellDrama.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1161A9DE20BC51DA0018CA86 /* CVCellDrama.xib */; };
+		1163A4D520BDAC3B000D51AF /* DramaHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1163A4D220BDAC3B000D51AF /* DramaHeaderView.xib */; };
+		1163A4D620BDAC3B000D51AF /* DramaHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163A4D420BDAC3B000D51AF /* DramaHeaderView.m */; };
 		1195EC8B20BC8C37008BF744 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195EC8A20BC8C37008BF744 /* Common.m */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,9 @@
 		1161A9DC20BC51DA0018CA86 /* CVCellDrama.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CVCellDrama.h; path = drama/CVCellDrama.h; sourceTree = "<group>"; };
 		1161A9DD20BC51DA0018CA86 /* CVCellDrama.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CVCellDrama.m; path = drama/CVCellDrama.m; sourceTree = "<group>"; };
 		1161A9DE20BC51DA0018CA86 /* CVCellDrama.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CVCellDrama.xib; path = drama/CVCellDrama.xib; sourceTree = "<group>"; };
+		1163A4D220BDAC3B000D51AF /* DramaHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DramaHeaderView.xib; path = drama/DramaHeaderView.xib; sourceTree = "<group>"; };
+		1163A4D320BDAC3B000D51AF /* DramaHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DramaHeaderView.h; path = drama/DramaHeaderView.h; sourceTree = "<group>"; };
+		1163A4D420BDAC3B000D51AF /* DramaHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DramaHeaderView.m; path = drama/DramaHeaderView.m; sourceTree = "<group>"; };
 		1195EC8920BC8431008BF744 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		1195EC8A20BC8C37008BF744 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +147,9 @@
 		114D510120B70066005B5CD9 /* drama */ = {
 			isa = PBXGroup;
 			children = (
+				1163A4D320BDAC3B000D51AF /* DramaHeaderView.h */,
+				1163A4D420BDAC3B000D51AF /* DramaHeaderView.m */,
+				1163A4D220BDAC3B000D51AF /* DramaHeaderView.xib */,
 				1161A9D620BC48BF0018CA86 /* DramaView.h */,
 				1161A9D720BC48C00018CA86 /* DramaView.m */,
 				11130CDA20B8794B00726771 /* DramaViewController.h */,
@@ -227,6 +235,7 @@
 				11130CCA20B8001300726771 /* ChitChat.storyboard in Resources */,
 				1161A9E020BC51DA0018CA86 /* CVCellDrama.xib in Resources */,
 				1135D22C20A9F4420030932D /* LaunchScreen.storyboard in Resources */,
+				1163A4D520BDAC3B000D51AF /* DramaHeaderView.xib in Resources */,
 				11130CC720B7FFBB00726771 /* chitchat in Resources */,
 				1135D22920A9F4420030932D /* Assets.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			files = (
 				1161A9DF20BC51DA0018CA86 /* CVCellDrama.m in Sources */,
 				1135D22420A9F4420030932D /* MainViewController.m in Sources */,
+				1163A4D620BDAC3B000D51AF /* DramaHeaderView.m in Sources */,
 				1161A9D820BC48C00018CA86 /* DramaView.m in Sources */,
 				1135D22F20A9F4420030932D /* main.m in Sources */,
 				1195EC8B20BC8C37008BF744 /* Common.m in Sources */,
